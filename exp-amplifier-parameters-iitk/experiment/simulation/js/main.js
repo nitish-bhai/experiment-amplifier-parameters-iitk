@@ -263,7 +263,7 @@ function calculate(id) {
             numberOutput.innerHTML = slew_rate;
         }
         else{
-            alert("Please turn on the required switches and select the volatage");
+            alert("Please turn on the required switches and select the voltage");
         }
     }
 
