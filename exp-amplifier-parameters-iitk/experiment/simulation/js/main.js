@@ -94,7 +94,7 @@ function alertfunc(id) {
         but2 = document.getElementById('DifferentialMode').style.backgroundColor = '#2f85ee';
         but3 = document.getElementById('CMRR').style.backgroundColor = '#2f85ee';
         but4 = document.getElementById('SlewRate').style.backgroundColor = '#2f85ee';
-        alert('Switch1 (S1), Switch3 (S3) is Closed where-as Switch2(S2) is Open. V1 source is active V2 source is not active ')
+        alert('STEPS TO PERFORM COMMON MODE :\n \n1.  Switch1 (S1) and Switch3 (S3) is Closed. \n2.  Switch2 (S2) is Open. \n3.  V1 source is active \n4.  V2 source is not active ')
         s2count = 1;
         mode = "common_mode";
         console.log(mode);
@@ -129,7 +129,7 @@ function alertfunc(id) {
         but2 = document.getElementById('DifferentialMode').style.backgroundColor = 'green';
         but3 = document.getElementById('CMRR').style.backgroundColor = '#2f85ee';
         but4 = document.getElementById('SlewRate').style.backgroundColor = '#2f85ee';
-        alert('Switch1 (S1) is open  where-as Switch2 (S2), Switch3 (S3) is closed. V1,V2 source is active')
+        alert('STEPS TO PERFORM DIFFERENTIAL MODE :\n \n1.  Switch1 (S1) is open.  \n2.  Switch2 (S2) and Switch3 (S3) is closed. \n3.  V1,V2 source is active')
         s1count = 1;
         mode = "differential_mode";
         document.getElementById("voltage1").disabled = false;
@@ -160,7 +160,7 @@ function alertfunc(id) {
         but2 = document.getElementById('DifferentialMode').style.backgroundColor = '#2f85ee';
         but3 = document.getElementById('CMRR').style.backgroundColor = 'green';
         but4 = document.getElementById('SlewRate').style.backgroundColor = '#2f85ee';
-        alert('Switch1 (S1), Switch3 (S3) is Closed where-as Switch2(S2) is Open. V1 source is active V2 source is not active ')
+        alert('STEPS TO PERFORM CMRR MODE :\n \n1.  Switch1 (S1) and Switch3 (S3) is Closed. \n2.  Switch2(S2) is Open. \n3.  V1 source is active. \n4.  V2 source is not active. ')
         mode = "CMRR_ratio";
         document.getElementById("voltage1").disabled = false;
         document.getElementById("voltage2").disabled = true;
@@ -192,7 +192,7 @@ function alertfunc(id) {
         but2 = document.getElementById('DifferentialMode').style.backgroundColor = '#2f85ee';
         but3 = document.getElementById('CMRR').style.backgroundColor = '#2f85ee';
         but4 = document.getElementById('SlewRate').style.backgroundColor = 'green';
-        alert('Switch1 (S1) , Switch3 (S3) is closed, Switch2 (S2) is open. V1 source is active')
+        alert('STEPS TO PERFORM SLEW RATE :\n \n1.  Switch1 (S1) and Switch3 (S3) is closed. \n2.  Switch2 (S2) is open. \n3.  V1 source is active.')
         mode = "Slew_rate";
         document.getElementById("voltage1").disabled = false;
         document.getElementById("voltage2").disabled = true;
